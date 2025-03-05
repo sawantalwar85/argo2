@@ -3,10 +3,10 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - master  # Trigger when code is pushed to the main branch
+      - main  # Trigger when code is pushed to the main branch
   pull_request:
     branches:
-      - master  # Run checks on pull requests to main branch
+      - main  # Run checks on pull requests to main branch
 
 jobs:
   build:
